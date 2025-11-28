@@ -3,24 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>MedConnect</title>
 </head>
 <body>
+    <main>
+        <form class="hero">
     <h2>Welcome Back</h2>
     
-    <p>Login to access your MedConnect account</p>
-    <div>
-        <p>Category:</p>
+    <p class="login">Login to access your MedConnect account</p>
+    <div class="star">
+        <p><strong>Category</strong></p>
         <select name="category">
             <option value="patient">Patient</option>
             <option value="Doctor">Doctor</option>
         </select>
     </div>
-    <br>
-    <div>
-        <label for="email">Email:</label>
-        <input type="text" id="email" >
-    </div>
     
+        <label for="email"><strong>Email</strong></label><br>  
+        <input type="text" id="email" placeholder="ella234@gmail.com" required>
+    
+    <div class="">
+        <label for="password">Password <a href="#">Forgot password?</a></label><br>
+        <input type="text" id="password" placeholder="Ellajohn" required> 
+        
+    </div>
+    <div class="btn">
+        <button>Login</button>
+    </div>
+
+    <p>Already have an account? <a>Sign up here</a></p>
+    </form>
+</main>
 </body>
 </html>
