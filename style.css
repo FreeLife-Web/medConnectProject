@@ -7,14 +7,30 @@
     width:448px;
     height: 553px;
     border-radius: 10px;
-    margin-top:178px;
+    /* margin-top:178px; */
     margin-left: 457px;
     padding: 31px 17px 31px 17px;
-    line-height:48px;
-    border:1px solid black;
+    line-height:50px;
+    box-shadow:0 0 1px black;
 }
 .login{
     color:rgb(172, 172, 172);
+}
+.icon{
+    display: flex;
+    gap:8px;
+    text-align: center;
+    color:rgb(122, 122, 122);
+    margin-left: 450px;
+    margin-bottom: 20px;
+}
+.icon-arrow{
+    font-size: 20px;
+     color:rgb(122, 122, 122);
+}
+.icon-text{
+    font-size: 16px;
+    font-weight: bold;
 }
 select{
     /* background-color: aliceblue; */
@@ -22,6 +38,10 @@ width:400px;
 padding:10px;
 border-radius: 10px;
 color:rgb(137, 136, 136) ;
+ background-color: rgb(244, 246, 249);
+}
+.star{
+    text-align: center;
 }
 #email{
     width:380px;
@@ -29,7 +49,38 @@ color:rgb(137, 136, 136) ;
     border:1px solid black ;
     color:rgb(137, 136, 136) ;
     border-radius: 10px;
+    background-color: rgb(244, 246, 249);
 }
-a{
-    margin-right: 10px;
+.text{
+    margin-left:250px;
+    text-decoration: none;
+    font-weight: bold;
+    color:rgb(25, 115, 219);
+}
+
+#password{
+      width:380px;
+    padding:10px;
+    border:1px solid black ;
+    color:rgb(137, 136, 136) ;
+    border-radius: 10px;
+     background-color: rgb(244, 246, 249);
+}
+.btn{
+      width:450px;
+    padding:10px;
+    color:white ;
+    border-radius: 10px;
+    border:1px solid black ;
+    margin-top: 30px;
+    background-color: rgb(38, 83, 221);
+
+}
+.count{
+    text-align: center;
+}
+.word{
+    text-decoration: none;
+     color:rgb(25, 115, 219);
+     font-weight: bold;
 }
