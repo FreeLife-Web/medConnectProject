@@ -1,118 +1,139 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.icon {
+  display: flex;
+  gap: 8px;
+  text-align: center;
+  color: rgb(122, 122, 122);
+  margin-left: 450px;
+  margin: 50px;
+}
+.icon-arrow {
+  font-size: 20px;
+  color: rgb(122, 122, 122);
+}
+.icon-text {
+  font-size: 16px;
+  font-weight: bold;
 }
 
 
-.icon{
-    display: flex;
-    gap:8px;
-    text-align: center;
-    color:rgb(122, 122, 122);
-    margin-left: 450px;
-    margin: 50px;
-}
-.icon-arrow{
-    font-size: 20px;
-     color:rgb(122, 122, 122);
-}
-.icon-text{
-    font-size: 16px;
-    font-weight: bold;
-}
 
+form{
+  border: none;
+  max-width: 500px;
+  padding: 20px;
+ background: #fafafa;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 25px auto;
+  font-family: Arial, sans-serif;
+  width: 406px;
+  height: 750px;
+  gap: 24px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 
-
-
-
-
-.back{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 448px;
-    height: 883px;
-    border: 1px solid #E1E7EF;
-    border-radius: 10px;
-    gap: 31px;
-    background:#FFFFFF;
-    margin: 41px auto;
- 
 }
 
-.signupForm{
-  
-    max-width: 500px;
-    padding: 20px;
-    background: #fafafa;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    margin: 25px;
-    font-family: Arial, sans-serif;
-    width: 406px;
-    height: 750px;
-    gap: 24px;
-  
+#name,
+#email,
+#number,
+#cal,
+#gender,
+#password,
+#confirm,
+#blood {
+  border-radius: 10px;
+}
+
+select {
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+    border: 1px solid #bbb;
+    border-radius: 8px;
+
+    
+   background-color: #f6f9fb;
+    box-shadow: inset 0 1px 2px rgba(255,255,255,0.8),
+                0 2px 5px rgba(0,0,0,0.15);
+
+    cursor: pointer;
+    outline: none;
+    transition: 0.3s ease;
 }
 
 
-#name, #email, #number, #cal, #gender, #password, #confirm, #blood{
-    border-radius: 10px;
+select:hover {
+    background: linear-gradient(to bottom, #ffffff, #dcdcdc);
 }
 
+select:focus {
+    border-color: #4A90E2;
+    box-shadow: inset 0 1px 2px rgba(255,255,255,0.8),
+                0 0 6px rgba(74,144,226,0.6);
+}
+
+
+select option {
+    padding: 10px;
+    background: linear-gradient(to bottom, #ffffff, #f2f2f2);
+}
 
 .form-group {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 label {
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 6px;
-    display: block;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 6px;
+  display: block;
 }
 
-input,  select {
-    background-color: #F6F9FB;
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #bbb;
-    border-radius: 5px;
-    outline: none;
+input,
+select {
+  background-color: #f6f9fb;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  outline: none;
 }
-
-
-
 
 .row {
-    display: flex;
-    gap: 15px;
+  display: flex;
+  gap: 15px;
 }
 
 .row .form-group {
-    flex: 1;
+  flex: 1;
 }
-
 
 button {
-    /*width: 406px;*/
-    width: 100%;
-    padding: 12px 16px;
-    gap: 10px;
-    background: #2E80fa;
-    color: white;
-    border: none;
-    border-radius: 10px;
-    font-size: 16px;
-    cursor: pointer;
-    height: 44px;
-     margin-top: 20px;
-    margin-bottom: 20px;
-    
+  /*width: 406px;*/
+  width: 100%;
+  padding: 12px 16px;
+  gap: 10px;
+  background: #2e80fa;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  height: 44px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
+<<<<<<< HEAD:style.css
 
 .footer p{
     text-align: center;
@@ -122,6 +143,15 @@ button {
     font-size: 14px;
     font-weight: bold;
    
+=======
+.footer p {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #65758b;
+  font-style: regular;
+  font-size: 14px;
+  font-weight: bold;
+>>>>>>> dcfdd63e885a0decf9e1e81adef75a0f754bdb9d:styles.css/style.css
 }
 
 a{
@@ -129,6 +159,7 @@ a{
     text-decoration: none;
 }
 
+<<<<<<< HEAD:style.css
 /* Glossy select box */
 select {
     width: 100%;
@@ -164,3 +195,6 @@ select option {
     padding: 10px;
     background: linear-gradient(to bottom, #ffffff, #f2f2f2);
 }
+=======
+
+>>>>>>> dcfdd63e885a0decf9e1e81adef75a0f754bdb9d:styles.css/style.css
