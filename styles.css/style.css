@@ -33,9 +33,13 @@
   gap: 31px;
   background: #ffffff;
   margin: 41px auto;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .signupForm {
+  border: none;
   max-width: 500px;
   padding: 20px;
   background: #fafafa;
@@ -46,6 +50,10 @@
   width: 406px;
   height: 750px;
   gap: 24px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
 }
 
 #name,
@@ -59,7 +67,7 @@
   border-radius: 10px;
 }
 
-elect {
+select {
     width: 100%;
     padding: 12px;
     font-size: 15px;
