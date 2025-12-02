@@ -4,7 +4,7 @@
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
 }
-body{
+body {
   background-color: #f0f3f8;
 }
 .icon {
@@ -24,13 +24,11 @@ body{
   font-weight: bold;
 }
 
-
-
-form{
+form {
   border: none;
   max-width: 500px;
   padding: 20px;
- background: #fafafa;
+  background: #fafafa;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin: 25px auto;
@@ -39,9 +37,8 @@ form{
   height: 750px;
   gap: 24px;
   backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px); 
+  -webkit-backdrop-filter: blur(10px);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-
 }
 
 #name,
@@ -56,37 +53,34 @@ form{
 }
 
 select {
-    width: 100%;
-    padding: 12px;
-    font-size: 15px;
-    border: 1px solid #bbb;
-    border-radius: 8px;
+  width: 100%;
+  padding: 12px;
+  font-size: 15px;
+  border: 1px solid #bbb;
+  border-radius: 8px;
 
-    
-   background-color: #f6f9fb;
-    box-shadow: inset 0 1px 2px rgba(255,255,255,0.8),
-                0 2px 5px rgba(0,0,0,0.15);
+  background-color: #f6f9fb;
+  box-shadow: inset 0 1px 2px rgba(255, 255, 255, 0.8),
+    0 2px 5px rgba(0, 0, 0, 0.15);
 
-    cursor: pointer;
-    outline: none;
-    transition: 0.3s ease;
+  cursor: pointer;
+  outline: none;
+  transition: 0.3s ease;
 }
 
-
 select:hover {
-    background: linear-gradient(to bottom, #ffffff, #dcdcdc);
+  background: linear-gradient(to bottom, #ffffff, #dcdcdc);
 }
 
 select:focus {
-    border-color: #4A90E2;
-    box-shadow: inset 0 1px 2px rgba(255,255,255,0.8),
-                0 0 6px rgba(74,144,226,0.6);
+  border-color: #4a90e2;
+  box-shadow: inset 0 1px 2px rgba(255, 255, 255, 0.8),
+    0 0 6px rgba(74, 144, 226, 0.6);
 }
 
-
 select option {
-    padding: 10px;
-    background: linear-gradient(to bottom, #ffffff, #f2f2f2);
+  padding: 10px;
+  background: linear-gradient(to bottom, #ffffff, #f2f2f2);
 }
 
 .form-group {
@@ -144,9 +138,7 @@ button {
   font-weight: bold;
 }
 
-a{
-    color: #2E80fa;
-    text-decoration: none;
+a {
+  color: #2e80fa;
+  text-decoration: none;
 }
-
-
