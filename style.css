@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -212,28 +211,31 @@ li, a, button {
 }
 
 .left-section h1{
-    font-size: 60px;
+   
     font-weight: 800;
     font-style: bold;
-    line-height: 60px;
+
     color: #1D283A;
+    
+    font-size: 3.75rem;
+    line-height: 3.75rem;
 }
 
+
+
 .left-section h1 .omo {
-  /* Fallback color for browsers that do not support background-clip: text */
-  color: #2E80FA; 
+ 
   background-image: linear-gradient(103.85deg, #2E80FA 0%, #4CAE4F 100%);
-  /* Clip the background to the shape of the text */
+  
   background-clip: text;
-  -webkit-background-clip: text; /* Vendor prefix for Safari support */
-  /* Make the actual text transparent so the background image shows through */
+  -webkit-background-clip: text; 
   -webkit-text-fill-color: transparent;
 }
 
 .left-section .text{
     color: #65758B;
     font-weight: 400;
-    font-style: Regular;
+    
     font-size: 20px;
     line-height: 28px;
     letter-spacing: 0%;
@@ -495,7 +497,7 @@ li, a, button {
 .chai p{
     font-family: Inter;
     font-weight: 400;
-    font-style: Regular;
+
     font-size: 20px;
     margin: 16px auto 0;
     max-width: 720px;
@@ -701,9 +703,10 @@ li, a, button {
     }
 
     .left-section h1 {
-        font-size: 32px;
-        line-height: 38px;
-    }
+    font-size: 3.75rem;
+    line-height: 3.75rem;
+}
+
 
     .left-section .text {
         font-size: 16px;
