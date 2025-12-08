@@ -6,7 +6,7 @@
 }
 body {
   background-color: #f0f3f8;
-  height: 750px;
+  /* height: 750px; */
 }
 /* .med{
     gap:43px;
@@ -52,25 +52,26 @@ body {
 }
 .film {
   display: flex;
-  width: 1024px;
+  width: 900px;
   margin: 0 auto;
-  height: 403px;
-  justify-content: space-between;
-  margin-top: 50px;
+  height: 290px;
+  /* justify-content: space-between; */
+  margin-top: 30px;
+  gap: 80px;
 }
 .asset {
   width: 450px;
-  height: 403px;
+  /* height: 403px; */
   border-radius: 20px;
   background-color: #ffffff;
   box-shadow: 2px 4px 4px 0px #00000033;
   text-align: center;
 }
 img {
-  width: 89px;
-  height: 85;
+  width: 70px;
+  height: 70px;
   border-radius: 20px;
-  margin-top: 75px;
+  margin-top: 30px;
   background-color: #eaf2fe;
 }
 .assign {
@@ -80,7 +81,7 @@ img {
   line-height: 100%;
   letter-spacing: 1%;
   color: #000000;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 .sign {
   font-style: normal;
@@ -107,21 +108,20 @@ img {
   line-height: 20px;
   color: #ffffff;
 }
-.log{
-     font-style: normal;
+.log {
+  font-style: normal;
   font-weight: 400px;
   font-size: 14px;
   line-height: 20px;
-  color: #65758B;
- margin-top: 50px;
- text-align: center;
- 
+  color: #65758b;
+  margin-top: 50px;
+  text-align: center;
 }
-.in{
-     font-style: normal;
+.in {
+  font-style: normal;
   font-weight: 500px;
   font-size: 14px;
   line-height: 20px;
-  color: #2E80FA;
+  color: #2e80fa;
   text-decoration: none;
 }
