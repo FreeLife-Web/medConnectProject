@@ -191,10 +191,12 @@ a {
 @media (max-width: 480px) {
   .icon-text {
     font-size: 14px;
+    margin-left: 5px;
   }
 
   .icon-arrow {
     font-size: 18px;
+    margin-left: 5px;
   }
 
   form {

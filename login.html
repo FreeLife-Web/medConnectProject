@@ -4,10 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles.css/login.css" />
-  <link rel="stylesheet" href="/styles.css/role.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css/role.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>MedConnect</title>
     <script
       type="module"
@@ -26,13 +29,14 @@
       <p class="icon-text">Back to home</p>
     </div>
     <main>
-      <form class="hero">
+      <form action="/dashboard.html" method="get" class="hero">
         <h2>Welcome Back🥳</h2>
 
         <p class="login">Login to access your MedConnect account</p>
         <p><strong>Category</strong></p>
         <div class="star">
           <select name="category">
+            <option value="select category">Select Category</option>
             <option value="patient">Patient</option>
             <option value="Doctor">Doctor</option>
           </select>
@@ -51,13 +55,18 @@
           <label for="password" class="salt"
             >Password <a href="#" class="text">Forgot password?</a></label
           >
-          <input type="text" id="password" placeholder="Ellajohn" required />
+          <input
+            type="password"
+            id="password"
+            placeholder="*********"
+            required
+          />
         </div>
         <button class="btn">Login</button>
 
         <p class="count">
           No account yet?
-          <a href="signup.html" >Sign up here</a>
+          <a href="signup.html">Sign up here</a>
         </p>
       </form>
     </main>

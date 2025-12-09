@@ -21,7 +21,7 @@ body{
   margin-right: auto;
   padding: 31px 17px 31px 17px;
   line-height: 45px;
-  box-shadow: 0 0 1px rgb(228, 226, 226);
+  /* box-shadow: 0 0 1px rgb(228, 226, 226); */
   margin-bottom: 50px;
 }
 .login {
@@ -142,7 +142,7 @@ a {
     width: 90%;
     height: auto;
     padding: 25px 15px;
-    line-height: 38px;
+    line-height: 47px;
   }
 
   select,
@@ -168,7 +168,7 @@ a {
   .hero {
     width: 92%;
     padding: 20px 12px;
-    line-height: 32px;
+    line-height: 47px;
   }
 
   .icon-text {
