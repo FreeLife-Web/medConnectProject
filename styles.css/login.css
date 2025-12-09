@@ -153,12 +153,12 @@ a {
   }
 
   .icon {
-    margin-left: 5;
+    margin-left: 0;
     justify-content: start;
   }
 
   .text {
-    margin-left: 5;
+    margin-left: 0;
     display: block;
     text-align: right;
   }
@@ -173,10 +173,12 @@ a {
 
   .icon-text {
     font-size: 16px;
+    margin-left: 5px;
   }
 
   .icon-arrow {
     font-size: 18px;
+    margin-left: 5px;
   }
 
   select,
