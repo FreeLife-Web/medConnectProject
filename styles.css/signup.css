@@ -164,3 +164,67 @@ a {
   color: #2e80fa;
   text-decoration: none;
 }
+
+
+@media (max-width: 768px) {
+  .icon {
+    margin: 30px auto;       
+    justify-content: start; 
+  }
+
+  form {
+    width: 90%;
+    height: auto;          
+    padding: 20px 15px;
+    margin: 40px auto;
+   
+  }
+
+  .row {
+    flex-direction: column;  
+    gap: 0px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .icon-text {
+    font-size: 14px;
+  }
+
+  .icon-arrow {
+    font-size: 18px;
+  }
+
+  form {
+    width: 92%;
+    padding: 15px;
+  }
+
+  label {
+    font-size: 14px;
+  }
+
+  input,
+  select {
+    padding: 9px;
+    font-size: 14px;
+  }
+
+  button {
+    font-size: 15px;
+    padding: 12px;
+  }
+
+  #shuu {
+    font-size: 28px; 
+  }
+
+  .signup {
+    font-size: 14px;
+  }
+
+  .footer p {
+    font-size: 13px;
+  }
+}
