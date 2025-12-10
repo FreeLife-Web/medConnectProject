@@ -70,5 +70,5 @@ document.addEventListener('DOMContentLoaded', () => {
         setTimeout(() => {
           splash.classList.add("fade-out"); 
           body.classList.add("show-main"); 
-        }, 1500); 
+        }, 3000); 
       });
