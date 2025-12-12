@@ -62,13 +62,14 @@
 }
 .bot{
   display: flex;
-  justify-content:space-around;
-  margin-top: 37px;
+  /* justify-content:space-around; */
+  gap:88px;
+  margin-left: 57px;
 }
 .bot1{
   display: flex;
   flex-direction: column;
- 
+ margin-top: 37px;
 }
 #name{
  background-color: #F6F9FB;
@@ -91,3 +92,54 @@ label{
   line-height: 14px;
   margin-bottom: 12px;
 }
+#Email{
+  background-color: #F6F9FB;
+  padding: 11px 24px 11px 24px;
+  border: 1px solid #E1E7EF;
+  border-radius: 10px;
+  width: 614px;
+  height:40px;
+  color: #ACACAC;
+   font-size:12px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 14px;
+   
+}
+#era{
+margin-left: 57px;
+}
+#textarea{
+   background-color: #F6F9FB;
+  padding: 11px 24px 11px 24px;
+  border: 1px solid #E1E7EF;
+  border-radius: 10px;
+  width: 615px;
+  height:88px;
+  color: #ACACAC;
+   font-size:12px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 14px;
+}
+ .button{
+  
+  background-color: #2E80FA;
+   padding: 12px 16px 12px 16px;
+  border: 1px solid #E1E7EF;
+  border-radius: 10px;
+  width: 243px;
+  height:44px;
+  color: #F9F9F9;
+   font-size:14px;
+  font-weight: 500;
+  font-style:medium;
+  line-height: 20px;
+ 
+ }
+ .but{
+display: flex;
+ justify-content: end;
+ margin-right: 57px;
+ margin-top: 37px;
+ }

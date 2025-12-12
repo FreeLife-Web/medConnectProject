@@ -190,6 +190,9 @@ header {
   line-height: 20px;
   color: #1d283a;
 }
+#secret{
+  display: none;
+}
 .third {
   display: flex;
   flex-direction: column;

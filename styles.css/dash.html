@@ -46,6 +46,7 @@
                 <p class="doc">Dr. Uche John</p>
                 <button class="firm">Confirmed</button>
               </div>
+              <div id="secret">
               <p class="type">Cardiologist</p>
               <div class="icon">
                 <div class="lend">
@@ -64,9 +65,9 @@
                 <ion-icon name="location-outline" class="ion"></ion-icon>
                 <p class="room">Room 2025, Building A</p>
               </div>
-
-              <button class="btn1">View Details</button>
-              <button class="btn2">Cancel</button>
+               </div>
+              <button onclick="showText()" class="btn1">View Details</button>
+              <button onclick="hideText()" class="btn2">Cancel</button>
             </div>
           </div>
           <div class="third">
@@ -160,5 +161,13 @@
         </div>
       </div>
     </main>
+    <script>
+      function showText(){
+        document.getElementById("secret").style.display='block';
+      }
+      function hideText(){
+        document.getElementById("secret").style.display='none';
+      }
+    </script>
   </body>
 </html>
