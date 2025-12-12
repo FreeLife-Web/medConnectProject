@@ -18,27 +18,12 @@ body {
   padding: 20px 24px;
   color: rgb(122, 122, 122);
 }
-<<<<<<< HEAD
-
-
-.icon-arrow {
-  font-size: 22px;
-  text-decoration: none;
-  color: #65758b;
-  margin-right: 5px;
-=======
 .icon-arrow {
   font-size: 20px;
   color: rgb(122, 122, 122);
->>>>>>> 9474ba59ec224903f54d876f3a3870d4d5c4c37d
 }
 
 .icon-text {
-<<<<<<< HEAD
-=======
-  font-style: normal;
-  font-weight: bold;
->>>>>>> 9474ba59ec224903f54d876f3a3870d4d5c4c37d
   font-size: 16px;
   font-weight: bold;
   margin-right: auto;
@@ -124,7 +109,6 @@ img {
   font-size: 14px;
   font-weight: 500;
 }
-<<<<<<< HEAD
 
 /* FOOTER TEXT */
 .log {
@@ -137,23 +121,6 @@ img {
 .in {
   color: #2e80fa;
   font-weight: 500;
-=======
-.log {
-  font-style: normal;
-  font-weight: 400px;
-  font-size: 14px;
-  line-height: 20px;
-  color: #65758b;
-  margin-top: 50px;
-  text-align: center;
-}
-.in {
-  font-style: normal;
-  font-weight: 500px;
-  font-size: 14px;
-  line-height: 20px;
-  color: #2e80fa;
->>>>>>> 9474ba59ec224903f54d876f3a3870d4d5c4c37d
   text-decoration: none;
 }
 

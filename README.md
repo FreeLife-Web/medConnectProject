@@ -25,7 +25,8 @@ MedConnect is a modern web interface that allows users to:
 - Browse and interact with a healthcare portal  
 - Select roles (Patient, Doctor, etc.)  
 - Sign up or log in  
-- Navigate using a responsive UI  
+- Navigate using a responsive UI 
+- Contact 
 
 This project focuses on **UI/UX**, responsiveness, and foundational frontend interactions.
 
@@ -60,6 +61,7 @@ No backend or database integration is included in this repository.
 ├── assets/
 ├── html/
 │ ├── appointment.html
+│ ├── contact.html
 │ ├── dashboard.html
 │ ├── index.html
 │ ├── login.html
@@ -67,7 +69,6 @@ No backend or database integration is included in this repository.
 │ ├── role.html
 │ └── signup.html
 ├── styles.css
-├── appointment.css
 └── README.md
 
 
