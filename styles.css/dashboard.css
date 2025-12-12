@@ -179,8 +179,10 @@ header {
   font-style: medium;
   line-height: 20px;
   color: #1d283a;
+  cursor: pointer;
 }
 .btn2 {
+  cursor: pointer;
   background-color: #ffffff;
   padding: 10px 16px 10px 16px;
   border-radius: 10px;
@@ -407,6 +409,7 @@ header {
     height: auto;
     padding: 10px 15px;
     gap: 10px;
+
   }
 
   .back {
@@ -429,6 +432,7 @@ header {
   .three,
   .wrote,
   .write {
+    
     width: 95%;
     height: auto;
     padding: 10px;
@@ -445,7 +449,7 @@ header {
   }
 
   .iconic {
-    flex-direction: column;
+    flex-direction: row;
     gap: 0px;
     align-items: end;
   }
