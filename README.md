@@ -1,4 +1,4 @@
-# medConnectProject
+
 # 🏥 MedConnect Project
 
 **MedConnect** is a healthcare web application designed to simplify healthcare access for patients, doctors, and administrators.  
