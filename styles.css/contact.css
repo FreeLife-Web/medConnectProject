@@ -349,3 +349,89 @@ label {
     text-align: center;
   }
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  /* Layout */
+  .box {
+    flex-direction: row;
+    height: auto;
+    padding: 40px 20px;
+    gap: 30px;
+  }
+
+  .text-box {
+    margin-top: 30px;
+    max-width: 45%;
+  }
+
+
+  .form-box {
+    width: auto;
+    height: auto;
+    padding: 20px;
+  }
+
+  .bot {
+    gap: 4px;
+    margin-left: 0;
+    padding: 0 10px;
+  }
+
+  .bot1 {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  #name,
+  #Email,
+  #textarea {
+    width: 100%;
+  }
+
+  #era {
+    margin-left: 0;
+  }
+
+  .but {
+    justify-content: flex-end;
+    padding: 0 10px;
+  }
+
+  .button {
+    width: 60%;
+    max-width: 260px;
+  }
+
+  /* Footer */
+  .footer {
+    padding: 50px 40px;
+  }
+
+  .footer-top {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+    gap: 40px;
+  }
+
+  .footer-left {
+    width: 100%;
+  }
+
+  .footer-text {
+    flex-wrap: wrap;
+    gap: 60px;
+    padding-right: 0;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .footer-word h4 {
+    font-size: 15px;
+  }
+
+  .footer-word p {
+    font-size: 14px;
+  }
+}
